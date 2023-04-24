@@ -1,3 +1,10 @@
+import { initializeApp } from 'firebase/app';
+
+console.log(add(5,6))
+
+const appDettings = {
+    databseURL: "https://listapp-76645-default-rtdb.asia-southeast1.firebasedatabase.app/"
+}
 
 
 
