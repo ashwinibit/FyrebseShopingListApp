@@ -37,9 +37,12 @@ main{
     flex-direction: column;
     width: 350px;
     margin: 20px auto;
+    font-size: 20px;
+    font-weight: 600;
     .imagecontainer{
         justify-items: center;
         display: grid;
+        
         img{
             width: 150px;
         }
@@ -50,12 +53,17 @@ main{
         border-radius: 5px;
         margin: 5px;
         border: none;
+        display: grid;
+        text-align: center;
+        font-size: inherit;
     }
     button{
-        padding: .9rem;
+        padding: 0.9rem;
         border-radius: 5px;
         margin: 5px;
         background-color: var(--color-secondary);
         border: none;
+        font-size: inherit;
+        color: var(--color-grey-5);
     }
 }

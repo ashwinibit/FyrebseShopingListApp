@@ -38,6 +38,8 @@ main {
   flex-direction: column;
   width: 350px;
   margin: 20px auto;
+  font-size: 20px;
+  font-weight: 600;
 }
 .bodyContent .imagecontainer {
   justify-items: center;
@@ -52,6 +54,9 @@ main {
   border-radius: 5px;
   margin: 5px;
   border: none;
+  display: grid;
+  text-align: center;
+  font-size: inherit;
 }
 .bodyContent button {
   padding: 0.9rem;
@@ -59,4 +64,6 @@ main {
   margin: 5px;
   background-color: var(--color-secondary);
   border: none;
+  font-size: inherit;
+  color: var(--color-grey-5);
 }/*# sourceMappingURL=style.css.map */
