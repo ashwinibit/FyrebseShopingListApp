@@ -48,7 +48,11 @@ main {
 .bodyContent .imagecontainer img {
   width: 150px;
 }
-.bodyContent input {
+.bodyContent .input-controle {
+  width: 100%;
+  display: contents;
+}
+.bodyContent .input-controle input {
   background-color: var(--color-white);
   padding: 0.9rem;
   border-radius: 5px;
@@ -58,7 +62,8 @@ main {
   text-align: center;
   font-size: inherit;
 }
-.bodyContent button {
+.bodyContent .input-controle button {
+  width: -moz-available;
   padding: 0.9rem;
   border-radius: 5px;
   margin: 5px;

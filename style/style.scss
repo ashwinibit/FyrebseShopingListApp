@@ -47,25 +47,31 @@ main{
             width: 150px;
         }
     }
-    input{
-        background-color: var(--color-white);
-        padding: .9rem;
-        border-radius: 5px;
-        margin: 5px;
-        border: none;
-        display: grid;
-        text-align: center;
-        font-size: inherit;
+    .input-controle{
+        width: 100%;
+        display: contents;
+        input{
+            background-color: var(--color-white);
+            padding: .9rem;
+            border-radius: 5px;
+            margin: 5px;
+            border: none;
+            display: grid;
+            text-align: center;
+            font-size: inherit;
+        }
+        button{
+            width: -moz-available;
+            padding: 0.9rem;
+            border-radius: 5px;
+            margin: 5px;
+            background-color: var(--color-secondary);
+            border: none;
+            font-size: inherit;
+            color: var(--color-grey-5);
+        }
     }
-    button{
-        padding: 0.9rem;
-        border-radius: 5px;
-        margin: 5px;
-        background-color: var(--color-secondary);
-        border: none;
-        font-size: inherit;
-        color: var(--color-grey-5);
-    }
+    
 }
 
 
