@@ -1,10 +1,15 @@
-import { initializeApp } from 'firebase/app';
+// import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js';
+import { initializeApp } from '../FyrebseShopingListApp/node_modules/firebase/app';
 
-console.log(add(5,6))
-
-const appDettings = {
+const appSettings = {
     databseURL: "https://listapp-76645-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
+  
+const app = initializeApp(appSettings);
+
+console.log("hello")
+console.log(app)
+
 
 
 
