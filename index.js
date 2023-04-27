@@ -18,13 +18,17 @@ const shoppingListEl = document.getElementById("shopping-list")
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
 
-    push(shopingListInDB, inputValue)
+    if (inputValue.length == 0){
+        alert("Add text")
+    }
 
-    clearInputFieldEl()
-    // appendItemToShoppingListEl(inputValue)
+    else{
+        push(shopingListInDB, inputValue)
+        clearInputFieldEl()
+        console.log(`${inputValue} added to database`)
+    }
+
     
-    
-    console.log(`${inputValue} added to database`)
 })
 
 onValue(shopingListInDB, function(snapshot){
