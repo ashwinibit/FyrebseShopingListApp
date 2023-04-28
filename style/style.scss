@@ -23,6 +23,7 @@ body{
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
+    user-select: none;
 }
 
 main{
@@ -70,6 +71,10 @@ main{
             border: none;
             font-size: inherit;
             color: var(--color-grey-5);
+            &:hover{
+                background-color: #432000;
+                cursor: pointer;
+            }
         }
     }
     
@@ -93,6 +98,10 @@ main{
         flex-grow: 1;
         text-align: center;
         text-transform: uppercase;
+        &:hover{
+            background-color: #FFECC7;
+            cursor: pointer;
+        }
     }
 
 }

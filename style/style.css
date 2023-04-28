@@ -24,6 +24,9 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 main {
@@ -73,6 +76,10 @@ main {
   font-size: inherit;
   color: var(--color-grey-5);
 }
+.bodyContent .input-controle button:hover {
+  background-color: #432000;
+  cursor: pointer;
+}
 
 #shopping-list {
   display: flex;
@@ -92,6 +99,10 @@ main {
   flex-grow: 1;
   text-align: center;
   text-transform: uppercase;
+}
+#shopping-list li:hover {
+  background-color: #FFECC7;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
