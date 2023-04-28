@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -65,6 +64,7 @@ main {
   display: grid;
   text-align: center;
   font-size: inherit;
+  font-family: inherit;
 }
 .bodyContent .input-controle button {
   width: -moz-available;
@@ -75,6 +75,7 @@ main {
   border: none;
   font-size: inherit;
   color: var(--color-grey-5);
+  font-family: inherit;
 }
 .bodyContent .input-controle button:hover {
   background-color: #432000;

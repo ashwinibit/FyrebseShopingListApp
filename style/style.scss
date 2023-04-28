@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    // font-family:Arial, Helvetica, sans-serif;
 }
 :root {
     --color-primary: #FFFFFF;
@@ -61,6 +61,7 @@ main{
             display: grid;
             text-align: center;
             font-size: inherit;
+            font-family: inherit;
         }
         button{
             width: -moz-available;
@@ -71,6 +72,7 @@ main{
             border: none;
             font-size: inherit;
             color: var(--color-grey-5);
+            font-family: inherit;
             &:hover{
                 background-color: #432000;
                 cursor: pointer;
