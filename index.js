@@ -19,7 +19,8 @@ addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
 
     if (inputValue.length == 0){
-        alert("Add text")
+        // alert("Add text")
+        inputFieldEl.style.borderColor = "red";
     }
 
     else{
@@ -36,7 +37,7 @@ onValue(shopingListInDB, function(snapshot){
     clearShoppingListEl()
     for(let i = 0; i< itemsArray.length;i++){
 
-        console.log(itemsArray[i])
+        // console.log(itemsArray[i])
         appendItemToShoppingListEl(itemsArray[i])
     }
     
