@@ -15,6 +15,12 @@ const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 const shoppingListEl = document.getElementById("shopping-list")
 
+inputFieldEl.addEventListener("keyup", function(event){
+    if(event.keyCode === 13){
+        addButtonEl.click()
+    }
+})
+
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
 
